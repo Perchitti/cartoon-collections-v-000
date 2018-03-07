@@ -12,8 +12,6 @@ def long_planeteer_calls(words)
   i = 0
   while 4 < words.length || 4 > words.length
     i = i + 1
-    return
-    true
 end
 end
 
