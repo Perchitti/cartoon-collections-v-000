@@ -13,8 +13,6 @@ def long_planeteer_calls(i)
   while 4 < i.length || 4 > i.length
     return
     true
-  else
-    false
 end
 end
 
