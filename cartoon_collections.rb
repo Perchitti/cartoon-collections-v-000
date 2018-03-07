@@ -8,9 +8,9 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.map! {|planeteer_calls| planeteer_calls.capitalize + "!"}
 end
 
-def long_planeteer_calls(i)
+def long_planeteer_calls(words)
   i = 0
-  while 4 < i.length || 4 > i.length
+  while 4 < words.length || 4 > words.length
     i = i + 1
     return
     true
